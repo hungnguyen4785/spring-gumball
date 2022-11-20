@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a55867bb-5675-4eda-9e37-de1472f81420" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initializr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kustomization.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/GumballMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/HasQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/NoQuarterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/SoldOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/SoldState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/gumball-stattemodel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gumballmachine/gumball-uml-diagrams.asta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballMachineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/GumballModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springgumball/SpringGumballApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/giant-gumball-machine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/gumball.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/gumballmachine/GumballMachineTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springgumball/SpringGumballApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wrapper/gradle-wrapper.properties" afterDir="false" />
-    </list>
+    <list default="true" id="a55867bb-5675-4eda-9e37-de1472f81420" name="Changes" comment="add starter files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,15 +18,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "temurin-11",
-    "last_opened_file_path": "/Users/hungnguyen/spring-gumball"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hungnguyen/spring-gumball&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -78,7 +41,16 @@
       <option name="presentableId" value="Default" />
       <updated>1668911159335</updated>
       <workItem from="1668911162925" duration="87000" />
+      <workItem from="1668911277151" duration="60000" />
     </task>
+    <task id="LOCAL-00001" summary="add starter files">
+      <created>1668911333399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668911333399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,5 +66,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add starter files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add starter files" />
   </component>
 </project>
