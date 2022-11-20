@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a55867bb-5675-4eda-9e37-de1472f81420" name="Changes" comment="add file" />
+    <list default="true" id="a55867bb-5675-4eda-9e37-de1472f81420" name="Changes" comment="edit readme">
+      <change afterPath="$PROJECT_DIR$/images/create-cluster1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/create-cluster2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/create-cluster3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +43,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +57,7 @@
       <updated>1668911159335</updated>
       <workItem from="1668911162925" duration="87000" />
       <workItem from="1668911277151" duration="60000" />
-      <workItem from="1668911399347" duration="1037000" />
+      <workItem from="1668911399347" duration="2754000" />
     </task>
     <task id="LOCAL-00001" summary="add starter files">
       <created>1668911333399</created>
@@ -84,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668912420102</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="edit readme">
+      <created>1668912540851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668912540851</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +123,7 @@
     <MESSAGE value="add starter files" />
     <MESSAGE value="add images" />
     <MESSAGE value="add file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add file" />
+    <MESSAGE value="edit readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit readme" />
   </component>
 </project>
