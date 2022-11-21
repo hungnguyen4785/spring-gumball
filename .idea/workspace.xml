@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a55867bb-5675-4eda-9e37-de1472f81420" name="Changes" comment="add explaination">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="a55867bb-5675-4eda-9e37-de1472f81420" name="Changes" comment="update readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,7 @@
       <workItem from="1669004197622" duration="101000" />
       <workItem from="1669004301944" duration="446000" />
       <workItem from="1669004765865" duration="1321000" />
-      <workItem from="1669006121649" duration="3700000" />
+      <workItem from="1669006121649" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="add starter files">
       <created>1668911333399</created>
@@ -187,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669008234721</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add explanation">
+      <created>1669060657678</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669060657678</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update readme">
+      <created>1669060799064</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669060799064</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +224,8 @@
     <MESSAGE value="add images" />
     <MESSAGE value="add image" />
     <MESSAGE value="add explaination" />
-    <option name="LAST_COMMIT_MESSAGE" value="add explaination" />
+    <MESSAGE value="add explanation" />
+    <MESSAGE value="update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
   </component>
 </project>

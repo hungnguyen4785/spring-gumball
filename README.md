@@ -20,6 +20,7 @@ Go to google console -> Kubernetes Engine -> Cluster to create new cluster.
 
 Configure Standard cluster
 ![](images/create-cluster1.png)
+
 Name of the cluster is cmpe172
 
 Zone is us-central-c
@@ -36,6 +37,7 @@ In Google Cloud Console -> click on APIs & service -> Library -> Private APIS to
 ### Set up Secrets in Workspace
 Find the Project ID by go to the dashboard 
 ![](images/set-up-secret1.png)
+
 Project ID is under project info
 ![](images/set-up-secret2.png)
 
@@ -44,24 +46,32 @@ Click on Navigation -> IAM & Admin -> Service Accounts to create a new Service A
 
 Service account name is spring-gumball
 ![](images/create-service-account1.png)
+
 New service account is created
 ![](images/create-service-account2.png)
+
 Go to Navigation ->  IAM & Admin -> IAM -> Permissions to grant access 
 ![](images/grant-access1.png)
+
 Enter the principals name
 ![](images/grant-access2.png)
+
 Enter roles
 ![](images/grant-access3.png)
+
 Access is granted
 ![](images/grant-access4.png)
 
 #### Create a JSON service account key Links to an external site.for the service account
 Go to Navigation ->  IAM & Admin -> IAM -> Service Account -> Select "spring-gumball" -> Keys -> Create New Key
 ![](images/service-account-key1.png)
+
 Select Json
 ![](images/service-account-key2.png)
+
 Download Json key file
 ![](images/json-key.png)
+
 Json is created
 ![](images/json-key2.png)
 
@@ -70,10 +80,13 @@ On GitHub, go to my repo -> Settings -> Secret -> Action Secrets -> New reposito
 
 Enter "GKE_PROJECT" as a name and Project ID as a secret 
 ![](images/gke-project.png)
+
 New repository secret is successfully created
 ![](images/gke-project2.png)
+
 Create another repository secret : GKE_SA_KEY. Secret content is copied from service account JSON file that has been download earlier
 ![](images/gke-sa-key.png)
+
 New repository secret is successfully created
 ![](images/gke-sa-key2.png)
 
@@ -88,20 +101,28 @@ Picture below shows the new workflow is created
 #### Trigger and Deployment to GKE
 Image of the cluster
 ![](images/cluster1.png)
+
 Trigger a CD deployment by creating a new GitHub Release
 ![](images/release.png)
-Deployment is succeed 
+
+Succeed deployment
 ![](images/release2.png)
+
 All the unit tests pass
 ![](images/release3.png)
+
 Workflow 
 ![](images/workflow.png)
+
 Service
 ![](images/service-ingress.png)
+
 Create ingress
 ![](images/create-ingress1.png)
+
 Ingress is successfully created
 ![](images/create-ingress2.png)
+
 Test the web: Web UI comes up on Load Balancer's External IP
 ![](images/web-ui.png)
 
