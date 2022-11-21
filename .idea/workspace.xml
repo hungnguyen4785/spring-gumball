@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a55867bb-5675-4eda-9e37-de1472f81420" name="Changes" comment="change number of pod">
-      <change afterPath="$PROJECT_DIR$/images/create-service-account1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/create-service-account2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/enable-api1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/enable-api2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gke-project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/grant-access1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/grant-access2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/grant-access3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/grant-access4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/json-key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/json-key2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/service-account-key1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/service-account-key2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/set-up-secret1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/set-up-secret2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a55867bb-5675-4eda-9e37-de1472f81420" name="Changes" comment="add images">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +52,7 @@
       <updated>1668911159335</updated>
       <workItem from="1668911162925" duration="87000" />
       <workItem from="1668911277151" duration="60000" />
-      <workItem from="1668911399347" duration="8047000" />
+      <workItem from="1668911399347" duration="8459000" />
     </task>
     <task id="LOCAL-00001" summary="add starter files">
       <created>1668911333399</created>
@@ -126,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668920780854</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add images">
+      <created>1669003511326</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669003511326</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,11 +137,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add starter files" />
-    <MESSAGE value="add images" />
     <MESSAGE value="add file" />
     <MESSAGE value="edit readme" />
     <MESSAGE value="add image" />
     <MESSAGE value="change number of pod" />
-    <option name="LAST_COMMIT_MESSAGE" value="change number of pod" />
+    <MESSAGE value="add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images" />
   </component>
 </project>

@@ -64,3 +64,8 @@
 #### Configuring Kustomize
 
 ![](images/configure-customize.png)
+
+#### Trigger and Deployment to GKE
+
+![](images/cluster1.png)
+
