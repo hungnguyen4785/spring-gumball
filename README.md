@@ -2,6 +2,7 @@
 ## CI Workflow
 ### Using the Gradle starter workflow
 On GitHub, go to "Action" and click on "create new workflow", then find "java with gradle" to create file gradle.yaml.
+
 Gradle workflow is successfully created and shown in the directory
 ![](images/1.png)
 
@@ -16,10 +17,12 @@ Images below shown the workflow is created successfully
 ### Deploying to Google Kubernetes Engine
 #### Creating a GKE cluster
 Go to google console -> Kubernetes Engine -> Cluster to create new cluster.
+
 Configure Standard cluster
 ![](images/create-cluster1.png)
 Name of the cluster is cmpe172
-Zone is sus-central-c
+
+Zone is us-central-c
 ![](images/create-cluster2.png)
 New cluster is creating
 ![](images/create-cluster3.png)
@@ -38,6 +41,7 @@ Project ID is under project info
 
 ### Create a Service Account for GitHub Access
 Click on Navigation -> IAM & Admin -> Service Accounts to create a new Service Account.
+
 Service account name is spring-gumball
 ![](images/create-service-account1.png)
 New service account is created
@@ -63,6 +67,7 @@ Json is created
 
 #### Configure GitHub Secrets
 On GitHub, go to my repo -> Settings -> Secret -> Action Secrets -> New repository secret.
+
 Enter "GKE_PROJECT" as a name and Project ID as a secret 
 ![](images/gke-project.png)
 New repository secret is successfully created
@@ -74,7 +79,9 @@ New repository secret is successfully created
 
 #### Configuring Kustomize
 On GitHub, go to "Action" and click on "create new workflow", then find "Build and Deploy to GKE"
+
 The template for google.yaml will be provided, but we need to modify GKE_ZONE, GKE_CLUSTER, IMAGE, and DEPLOYMENT_NAME for our deployment
+
 Picture below shows the new workflow is created
 ![](images/configure-customize.png)
 
