@@ -75,7 +75,15 @@
 
 ![](images/release3.png)
 
+![](images/workflow.png)
 
+![](images/service-ingress.png)
+
+![](images/create-ingress1.png)
+
+![](images/create-ingress2.png)
+
+![](images/web-ui.png)
 
 
 
