@@ -1,7 +1,7 @@
 # spring-gumball
 ## CI Workflow
 ### Using the Gradle starter workflow
-On GitHub, go to Action and click on create new workflow, then find java with gradle to create file gradle.yaml.
+On GitHub, go to "Action" and click on "create new workflow", then find "java with gradle" to create file gradle.yaml.
 Gradle workflow is successfully created and shown in the directory
 ![](images/1.png)
 
@@ -19,7 +19,7 @@ Go to google console -> Kubernetes Engine -> Cluster to create new cluster.
 Configure Standard cluster
 ![](images/create-cluster1.png)
 Name of the cluster is cmpe172
-Zone i sus-central-c
+Zone is sus-central-c
 ![](images/create-cluster2.png)
 New cluster is creating
 ![](images/create-cluster3.png)
@@ -62,37 +62,40 @@ Json is created
 ![](images/json-key2.png)
 
 #### Configure GitHub Secrets
-On GitHub, go to 
+On GitHub, go to my repo -> Settings -> Secret -> Action Secrets -> New repository secret.
+Enter "GKE_PROJECT" as a name and Project ID as a secret 
 ![](images/gke-project.png)
-
+New repository secret is successfully created
 ![](images/gke-project2.png)
-
+Create another repository secret : GKE_SA_KEY. Secret content is copied from service account JSON file that has been download earlier
 ![](images/gke-sa-key.png)
-
+New repository secret is successfully created
 ![](images/gke-sa-key2.png)
 
 #### Configuring Kustomize
-
+On GitHub, go to "Action" and click on "create new workflow", then find "Build and Deploy to GKE"
+The template for google.yaml will be provided, but we need to modify GKE_ZONE, GKE_CLUSTER, IMAGE, and DEPLOYMENT_NAME for our deployment
+Picture below shows the new workflow is created
 ![](images/configure-customize.png)
 
 #### Trigger and Deployment to GKE
-
+Image of the cluster
 ![](images/cluster1.png)
-
+Trigger a CD deployment by creating a new GitHub Release
 ![](images/release.png)
-
+Deployment is succeed 
 ![](images/release2.png)
-
+All the unit tests pass
 ![](images/release3.png)
-
+Workflow 
 ![](images/workflow.png)
-
+Service
 ![](images/service-ingress.png)
-
+Create ingress
 ![](images/create-ingress1.png)
-
+Ingress is successfully created
 ![](images/create-ingress2.png)
-
+Test the web: Web UI comes up on Load Balancer's External IP
 ![](images/web-ui.png)
 
 
